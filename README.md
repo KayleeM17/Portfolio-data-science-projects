@@ -7,7 +7,13 @@ In this repository, it contains several data science projects I did before. The 
 
 * For this project, I was trying to build a model to predict the outcomes of 2017 US men's college basketball tournament. The datasets were downloaded from Kaggle competition. There were eight different datasets, which were regular season compact result, regular season detailed results, tourney compact results, tourney detailed results, tourney seeds, tourney slots, seasons, and teams.
 * The target for the prediction is binary which is winning or losing, and 1 stands for win and 0 stands for lose. The features I used to build the model were seeds number of tournament, number of winning games of last tournament, and the performance of regular season. The data I used to train model was from 2003 to 2016.
-* The process to create a new dataset to fit in the model: Create a dataset with calculating the mean regular season’s statistics and choose the features which have more than 0.05 correlation value with result. Create a dataset with the total number of winning games from las tourney of each team. Create a dataset with numeric seed value for each team. Create the dataset with winning teams, winning teams’ features, losing teams, and losing teams’ features by merge the dataset created before. Calculate the difference between winning teams and losing teams. Create the final dataset with concat difference between winning teams and losing teams and  negative difference value, and create a target column with binary result 1 and 0.
+* The process to create a new dataset to fit in the model: 
+* Create a dataset with calculating the mean regular season’s statistics and choose the features which have more than 0.05 correlation value with result. 
+* Create a dataset with the total number of winning games from las tourney of each team. 
+* Create a dataset with numeric seed value for each team. 
+* Create the dataset with winning teams, winning teams’ features, losing teams, and losing teams’ features by merge the dataset created before. Calculate the difference between winning teams and losing teams. 
+* Create the final dataset with concat difference between winning teams and losing teams and  negative difference value, and create a target column with binary result 1 and 0.
+
 * The algorithm used were Logistic Regression, SVM(Support Vector Machines), KNN(K-Nearest Neighbor), Decision Tree, Random Forest and Gradient Boosting.
 
 
