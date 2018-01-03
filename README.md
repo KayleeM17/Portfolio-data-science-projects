@@ -3,6 +3,11 @@
 In this repository, it contains several data science projects I did before. The topics of my projects including regression model, classification model, NLP(natrual language peocess), and neural network. In each jupyter notebook, you can see every step for a data science project, including import data, data preprocessing, EDA, data engineering, fit model, and model validation.
 
 1. House Sale Price Prediction
+
+* The goal of this project is to predict houses’ sale price. The dataset has 80 features for each house and has lots of missing value. I impute the missing data first with analyze why it got the missing value and which impute method I should use. Check if the dataset has outliers and delete outliers. 
+* Change some objective features to numeric features if the objective values can be ordered. Change some numeric features to objective if the numeric values don’t have order meaning. Get dummy variables for all the objective features and do feature selection. Standard Scaler values and fit the model.
+* The algorithm used were ElasticNet, Lasso, Ridge, Gradient Boosting, and used GridSearchCV to select best parameters.
+
 2. March Machine Learning Mania 2017
 
 * For this project, I was trying to build a model to predict the outcomes of 2017 US men's college basketball tournament. The datasets were downloaded from Kaggle competition. There were eight different datasets, which were regular season compact result, regular season detailed results, tourney compact results, tourney detailed results, tourney seeds, tourney slots, seasons, and teams.
