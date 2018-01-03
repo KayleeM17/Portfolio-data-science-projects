@@ -4,8 +4,8 @@ In this repository, it contains several data science projects I did before. The 
 
 1. House Sale Price Prediction
 
-* The goal of this project is to predict houses’ sale price. The dataset has 80 features for each house and has lots of missing value. I impute the missing data first with analyze why it got the missing value and which impute method I should use. Check if the dataset has outliers and delete outliers. 
-* Change some objective features to numeric features if the objective values can be ordered. Change some numeric features to objective if the numeric values don’t have order meaning. Get dummy variables for all the objective features and do feature selection. Standard Scaler values and fit the model.
+* The goal of this project is to predict houses’ sale price. The dataset has 80 features for each house and has lots of missing value. I impute the missing data first with analyzing why it got the missing value and which impute method I should use. Check if the dataset has outliers and delete outliers. 
+* Change some objective features to numeric features if the objective values can be ordered. Change some numeric features to objective features if the numeric values don’t have ordering meaning. Get dummy variables for all objective features and do feature selection. Standard Scaler values and fit the model.
 * The algorithm used were ElasticNet, Lasso, Ridge, Gradient Boosting, and used GridSearchCV to select best parameters.
 
 2. March Machine Learning Mania 2017
